@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40561FDF8349FB87A46A8B59 /* Pods_mypacemobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B925313ABD85A1F967CEB51 /* Pods_mypacemobile.framework */; };
 		4ACCB4DA1F7028AF00CE4168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCB4D91F7028AF00CE4168 /* AppDelegate.swift */; };
 		4ACCB4DC1F7028AF00CE4168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCB4DB1F7028AF00CE4168 /* ViewController.swift */; };
 		4ACCB4DF1F7028AF00CE4168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCB4DD1F7028AF00CE4168 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		4ACCB4E71F7028AF00CE4168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCB4E51F7028AF00CE4168 /* LaunchScreen.storyboard */; };
 		4ACCB4F21F7028AF00CE4168 /* mypacemobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCB4F11F7028AF00CE4168 /* mypacemobileTests.swift */; };
 		4ACCB4FD1F7028AF00CE4168 /* mypacemobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCB4FC1F7028AF00CE4168 /* mypacemobileUITests.swift */; };
+		81BBC4D8866779D034CE7682 /* Pods_mypacemobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA013DE17F116DBECDDD96E /* Pods_mypacemobileUITests.framework */; };
+		F20FE9B462901CECAF01D4A2 /* Pods_mypacemobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FACCEFFD6AD80BBBD045A8 /* Pods_mypacemobileTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D01F03AC3B58BF03CE62DBF /* Pods-mypacemobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobileUITests/Pods-mypacemobileUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4ACCB4D61F7028AF00CE4168 /* mypacemobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mypacemobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACCB4D91F7028AF00CE4168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACCB4DB1F7028AF00CE4168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		4ACCB4F81F7028AF00CE4168 /* mypacemobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mypacemobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACCB4FC1F7028AF00CE4168 /* mypacemobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypacemobileUITests.swift; sourceTree = "<group>"; };
 		4ACCB4FE1F7028AF00CE4168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D0CDF9B36962663C737D01 /* Pods-mypacemobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobileTests/Pods-mypacemobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		65CC2DBC458B59E66268F3D6 /* Pods-mypacemobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobileUITests/Pods-mypacemobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6992FCF78CDB400E2373E0A8 /* Pods-mypacemobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobile/Pods-mypacemobile.release.xcconfig"; sourceTree = "<group>"; };
+		74AA0D9F0A3CB8DFA18BA9EF /* Pods-mypacemobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobileTests/Pods-mypacemobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B925313ABD85A1F967CEB51 /* Pods_mypacemobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mypacemobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FACCEFFD6AD80BBBD045A8 /* Pods_mypacemobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mypacemobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA013DE17F116DBECDDD96E /* Pods_mypacemobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mypacemobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A04AB12455C2DFA729E131 /* Pods-mypacemobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobile/Pods-mypacemobile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40561FDF8349FB87A46A8B59 /* Pods_mypacemobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20FE9B462901CECAF01D4A2 /* Pods_mypacemobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BBC4D8866779D034CE7682 /* Pods_mypacemobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				4ACCB4F01F7028AF00CE4168 /* mypacemobileTests */,
 				4ACCB4FB1F7028AF00CE4168 /* mypacemobileUITests */,
 				4ACCB4D71F7028AF00CE4168 /* Products */,
+				A609EF748F22B58F99D01B09 /* Pods */,
+				9544F74E9D66E8E17D7DE56F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = mypacemobileUITests;
 			sourceTree = "<group>";
 		};
+		9544F74E9D66E8E17D7DE56F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B925313ABD85A1F967CEB51 /* Pods_mypacemobile.framework */,
+				A8FACCEFFD6AD80BBBD045A8 /* Pods_mypacemobileTests.framework */,
+				BEA013DE17F116DBECDDD96E /* Pods_mypacemobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A609EF748F22B58F99D01B09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8A04AB12455C2DFA729E131 /* Pods-mypacemobile.debug.xcconfig */,
+				6992FCF78CDB400E2373E0A8 /* Pods-mypacemobile.release.xcconfig */,
+				74AA0D9F0A3CB8DFA18BA9EF /* Pods-mypacemobileTests.debug.xcconfig */,
+				55D0CDF9B36962663C737D01 /* Pods-mypacemobileTests.release.xcconfig */,
+				65CC2DBC458B59E66268F3D6 /* Pods-mypacemobileUITests.debug.xcconfig */,
+				3D01F03AC3B58BF03CE62DBF /* Pods-mypacemobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ACCB5011F7028AF00CE4168 /* Build configuration list for PBXNativeTarget "mypacemobile" */;
 			buildPhases = (
+				4FCFAC3987155F85453EF373 /* [CP] Check Pods Manifest.lock */,
 				4ACCB4D21F7028AF00CE4168 /* Sources */,
 				4ACCB4D31F7028AF00CE4168 /* Frameworks */,
 				4ACCB4D41F7028AF00CE4168 /* Resources */,
+				F8DDDE6258C6F47A5D1B4ED3 /* [CP] Embed Pods Frameworks */,
+				E976FF96689071801A7AA586 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ACCB5041F7028AF00CE4168 /* Build configuration list for PBXNativeTarget "mypacemobileTests" */;
 			buildPhases = (
+				489A973E34A22FC7E3072EAF /* [CP] Check Pods Manifest.lock */,
 				4ACCB4E91F7028AF00CE4168 /* Sources */,
 				4ACCB4EA1F7028AF00CE4168 /* Frameworks */,
 				4ACCB4EB1F7028AF00CE4168 /* Resources */,
+				36360910E243728DEAF405A6 /* [CP] Embed Pods Frameworks */,
+				8C01B658D3B61157BC53E229 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ACCB5071F7028AF00CE4168 /* Build configuration list for PBXNativeTarget "mypacemobileUITests" */;
 			buildPhases = (
+				6CD74E3AD1E154C312BECB7F /* [CP] Check Pods Manifest.lock */,
 				4ACCB4F41F7028AF00CE4168 /* Sources */,
 				4ACCB4F51F7028AF00CE4168 /* Frameworks */,
 				4ACCB4F61F7028AF00CE4168 /* Resources */,
+				5339520D80D3CDBA131CA52D /* [CP] Embed Pods Frameworks */,
+				9EB58BC746D46FD9303A4F47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36360910E243728DEAF405A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypacemobileTests/Pods-mypacemobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489A973E34A22FC7E3072EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mypacemobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FCFAC3987155F85453EF373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mypacemobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5339520D80D3CDBA131CA52D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypacemobileUITests/Pods-mypacemobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD74E3AD1E154C312BECB7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mypacemobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C01B658D3B61157BC53E229 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypacemobileTests/Pods-mypacemobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB58BC746D46FD9303A4F47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypacemobileUITests/Pods-mypacemobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E976FF96689071801A7AA586 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypacemobile/Pods-mypacemobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DDDE6258C6F47A5D1B4ED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mypacemobile/Pods-mypacemobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypacemobile/Pods-mypacemobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4ACCB4D21F7028AF00CE4168 /* Sources */ = {
@@ -419,6 +622,7 @@
 		};
 		4ACCB5021F7028AF00CE4168 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A04AB12455C2DFA729E131 /* Pods-mypacemobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R6YXQ6UJ75;
@@ -432,6 +636,7 @@
 		};
 		4ACCB5031F7028AF00CE4168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6992FCF78CDB400E2373E0A8 /* Pods-mypacemobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R6YXQ6UJ75;
@@ -445,6 +650,7 @@
 		};
 		4ACCB5051F7028AF00CE4168 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AA0D9F0A3CB8DFA18BA9EF /* Pods-mypacemobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +666,7 @@
 		};
 		4ACCB5061F7028AF00CE4168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D0CDF9B36962663C737D01 /* Pods-mypacemobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +682,7 @@
 		};
 		4ACCB5081F7028AF00CE4168 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CC2DBC458B59E66268F3D6 /* Pods-mypacemobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R6YXQ6UJ75;
@@ -489,6 +697,7 @@
 		};
 		4ACCB5091F7028AF00CE4168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D01F03AC3B58BF03CE62DBF /* Pods-mypacemobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R6YXQ6UJ75;
@@ -520,6 +729,7 @@
 				4ACCB5031F7028AF00CE4168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ACCB5041F7028AF00CE4168 /* Build configuration list for PBXNativeTarget "mypacemobileTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +738,7 @@
 				4ACCB5061F7028AF00CE4168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ACCB5071F7028AF00CE4168 /* Build configuration list for PBXNativeTarget "mypacemobileUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +747,7 @@
 				4ACCB5091F7028AF00CE4168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
