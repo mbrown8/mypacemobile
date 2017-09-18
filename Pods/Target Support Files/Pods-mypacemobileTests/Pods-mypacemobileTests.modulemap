@@ -1,0 +1,6 @@
+framework module Pods_mypacemobileTests {
+  umbrella header "Pods-mypacemobileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
