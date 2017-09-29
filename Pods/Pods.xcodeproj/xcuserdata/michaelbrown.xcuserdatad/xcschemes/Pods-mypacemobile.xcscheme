@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B88F7AD5A7B1CEE197A1A2C2945AEC2F"
+               BlueprintIdentifier = "990407329FFAD8350BCACFA196F85443"
                BuildableName = "Pods_mypacemobile.framework"
                BlueprintName = "Pods-mypacemobile"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B88F7AD5A7B1CEE197A1A2C2945AEC2F"
+            BlueprintIdentifier = "990407329FFAD8350BCACFA196F85443"
             BuildableName = "Pods_mypacemobile.framework"
             BlueprintName = "Pods-mypacemobile"
             ReferencedContainer = "container:Pods.xcodeproj">

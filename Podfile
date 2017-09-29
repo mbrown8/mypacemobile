@@ -6,9 +6,8 @@ target 'mypacemobile' do
   use_frameworks!
 
   # Pods for mypacemobile
-    pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
-    pod 'iCarousel', '~> 1.8'
-    pod 'Material', '~> 2.0'
+  pod 'SideMenu', '~> 3.0'
+  pod 'Material', '~> 2.0'
 
   target 'mypacemobileTests' do
     inherit! :search_paths
