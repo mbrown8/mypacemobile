@@ -15,7 +15,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var forgotPasswordBtn: UIButton!
     @IBOutlet weak var backBtn: UIButton!
-
+    @IBOutlet weak var touchIdLoginBtn: UIButton!
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)

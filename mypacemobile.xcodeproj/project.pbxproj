@@ -19,6 +19,7 @@
 		4ACCB4FD1F7028AF00CE4168 /* mypacemobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCB4FC1F7028AF00CE4168 /* mypacemobileUITests.swift */; };
 		4ACED59D1F7EA54300614820 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED59C1F7EA54300614820 /* SettingsViewController.swift */; };
 		4ACED5A11F7ED36600614820 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED5A01F7ED36600614820 /* MenuViewController.swift */; };
+		4AFFC0AE1F828C3200653482 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFFC0AD1F828C3200653482 /* LocalAuthentication.framework */; };
 		8A31FD1EA1014B26D97350E5 /* Pods_mypacemobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434D8EAC258E1A8FEACC3361 /* Pods_mypacemobileTests.framework */; };
 		A6A3918DEEE05512FD11043C /* Pods_mypacemobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2C512224108AABF816D56C /* Pods_mypacemobileUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,8 @@
 		4ACCB4FE1F7028AF00CE4168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACED59C1F7EA54300614820 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4ACED5A01F7ED36600614820 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4AFFC0AC1F828A5600653482 /* mypacemobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mypacemobile.entitlements; sourceTree = "<group>"; };
+		4AFFC0AD1F828C3200653482 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		4C2C512224108AABF816D56C /* Pods_mypacemobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mypacemobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5F7FD48BF1A83098A925EC /* Pods-mypacemobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobileTests/Pods-mypacemobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93617F871352753B7FB5C30D /* Pods-mypacemobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypacemobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mypacemobileUITests/Pods-mypacemobileUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFFC0AE1F828C3200653482 /* LocalAuthentication.framework in Frameworks */,
 				3393AA9CABEF297E2D000851 /* Pods_mypacemobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +104,7 @@
 		209767B3D28CF7D2980F805E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AFFC0AD1F828C3200653482 /* LocalAuthentication.framework */,
 				D66F3A01A9E2626F5ED546E0 /* Pods_mypacemobile.framework */,
 				434D8EAC258E1A8FEACC3361 /* Pods_mypacemobileTests.framework */,
 				4C2C512224108AABF816D56C /* Pods_mypacemobileUITests.framework */,
@@ -145,6 +150,7 @@
 		4ACCB4D81F7028AF00CE4168 /* mypacemobile */ = {
 			isa = PBXGroup;
 			children = (
+				4AFFC0AC1F828A5600653482 /* mypacemobile.entitlements */,
 				4ACCB4D91F7028AF00CE4168 /* AppDelegate.swift */,
 				4ACCB4DB1F7028AF00CE4168 /* ViewController.swift */,
 				4ACED59C1F7EA54300614820 /* SettingsViewController.swift */,
@@ -256,6 +262,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = R6YXQ6UJ75;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
 					};
 					4ACCB4EC1F7028AF00CE4168 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -635,6 +646,7 @@
 			baseConfigurationReference = 35563E3C8B62507459F7EB03 /* Pods-mypacemobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mypacemobile/mypacemobile.entitlements;
 				DEVELOPMENT_TEAM = R6YXQ6UJ75;
 				INFOPLIST_FILE = mypacemobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -650,6 +662,7 @@
 			baseConfigurationReference = B3B9FD085965814A07095C6D /* Pods-mypacemobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mypacemobile/mypacemobile.entitlements;
 				DEVELOPMENT_TEAM = R6YXQ6UJ75;
 				INFOPLIST_FILE = mypacemobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
